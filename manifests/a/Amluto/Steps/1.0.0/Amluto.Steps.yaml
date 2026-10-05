@@ -1,8 +1,8 @@
-# Created using wingetcreate 1.12.13.0
+# Created by npm run release (scripts/lib/winget.mjs) in the amluto-steps repo.
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.10.0.schema.json
 
-PackageIdentifier: Amluto.Steps
-PackageVersion: 1.0.0
-DefaultLocale: en-GB
-ManifestType: version
-ManifestVersion: 1.10.0
+PackageIdentifier: "Amluto.Steps"
+PackageVersion: "1.0.0"
+DefaultLocale: "en-GB"
+ManifestType: "version"
+ManifestVersion: "1.10.0"
