@@ -1,34 +1,34 @@
-# Created using wingetcreate 1.12.13.0
+# Created by npm run release (scripts/lib/winget.mjs) in the amluto-steps repo.
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 
-PackageIdentifier: Amluto.Steps
-PackageVersion: 1.0.0
+PackageIdentifier: "Amluto.Steps"
+PackageVersion: "1.0.0"
 Platform:
-- Windows.Desktop
-MinimumOSVersion: 10.0.17763.0
-UpgradeBehavior: install
+- "Windows.Desktop"
+MinimumOSVersion: "10.0.17763.0"
+ReleaseDate: "2026-10-05"
+UpgradeBehavior: "install"
 Installers:
-- Architecture: x64
-  InstallerType: nullsoft
-  Scope: user
-  InstallerUrl: https://github.com/amluto-solutions/steps/releases/download/v1.0.0/amluto-steps-1.0.0-x64-setup.exe
-  InstallerSha256: D071F8C6D52ECD108141E0EC1A31DF2BE0368B738F18BFC09A512CC66E48A888
-  ProductCode: Steps
+- Architecture: "x64"
+  InstallerType: "nullsoft"
+  Scope: "user"
+  InstallerUrl: "https://github.com/amluto-solutions/steps/releases/download/v1.0.0/amluto-steps-1.0.0-x64-setup.exe"
+  InstallerSha256: "F25B47020EAE7CF7EA89D48AB079CC4A06E642628A1863A326B467DDDCC00BF3"
+  ProductCode: "Steps"
   AppsAndFeaturesEntries:
-  - DisplayName: Steps
-    Publisher: Amluto Solutions Ltd
-    ProductCode: Steps
-- Architecture: x64
-  InstallerType: wix
-  Scope: machine
-  InstallerUrl: https://github.com/amluto-solutions/steps/releases/download/v1.0.0/amluto-steps-1.0.0-x64.msi
-  InstallerSha256: 74559917C838A537060D5A9C73BA9F2BEC4D96C48D6195172CED8A39E619B7D8
-  ProductCode: '{F53D0FB3-FBBB-4E26-9F7D-74D7D18A7D99}'
+  - DisplayName: "Steps"
+    Publisher: "Amluto Solutions Ltd"
+    ProductCode: "Steps"
+- Architecture: "x64"
+  InstallerType: "wix"
+  Scope: "machine"
+  InstallerUrl: "https://github.com/amluto-solutions/steps/releases/download/v1.0.0/amluto-steps-1.0.0-x64.msi"
+  InstallerSha256: "065E63FABE9225787CAC9EEA22265F9CCEFDD346D3478957B891573040CFABDF"
+  ProductCode: "{48333BF8-2977-4DCC-9B06-721A3ECCA41F}"
   AppsAndFeaturesEntries:
-  - DisplayName: Steps
-    Publisher: Amluto Solutions Ltd
-    ProductCode: '{F53D0FB3-FBBB-4E26-9F7D-74D7D18A7D99}'
-    UpgradeCode: '{A8772EA5-E41C-5D68-862D-0BE9828A10A7}'
-ManifestType: installer
-ManifestVersion: 1.10.0
-ReleaseDate: 2026-10-02
+  - DisplayName: "Steps"
+    Publisher: "Amluto Solutions Ltd"
+    ProductCode: "{48333BF8-2977-4DCC-9B06-721A3ECCA41F}"
+    UpgradeCode: "{A8772EA5-E41C-5D68-862D-0BE9828A10A7}"
+ManifestType: "installer"
+ManifestVersion: "1.10.0"
